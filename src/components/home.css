@@ -1,0 +1,22 @@
+.Products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+}
+.Product{
+    margin:10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+}
+.ShopTitle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;  
+}
