@@ -35,11 +35,11 @@ export const Cart = () => {
                 )}
             </div>
             <div className="cart-total">
-                <h3>Subtotal: {total > 0 ? total : "Cart is Empty"}</h3>
+                <h3>Subtotal: {total > 0 ? `₹${total}` : "Cart is Empty"}</h3>
 
             </div>
             <div className="cart-checkout">
-                <button className="btn btn-primary" onClick={() => navigate("/home")}>Continue</button>
+                <button className="btn btn-primary" onClick={() => navigate("/")}>Continue</button>
                 <button className="btn btn-success" onClick={() => navigate("/checkout")}>Checkout</button>
             </div>
         </div>

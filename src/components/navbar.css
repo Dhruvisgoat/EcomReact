@@ -3,19 +3,40 @@
     padding:0px;
 }
 .navbar{
-    background-color: blanchedalmond;
-    height: 30px;
+    background-color: #232f3e;
+    height: 60px;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 .links a{
     text-decoration: none;
-    float: right;
-    margin-right: 20px;
-    margin:5px;
-    font-size: 20px;
+    color: #fff;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 2px;
+}
+.links a:hover{
+    background-color: rgba(255,255,255,0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+.links a:last-child{
+    background-color: #ffa41c;
+    color: #232f3e;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+.links a:last-child:hover{
+    background-color: #ffbe5a;
+    transition: background-color 0.3s ease-in-out;
 }

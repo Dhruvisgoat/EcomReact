@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar } from './navbar';
 import { Home } from './home';
-import { Contact } from '../pages/contact';
 import {ShopcontextProvider} from '../Context/shop-context';
 import { Cart } from '../pages/cart';
-
+import Contact from './Contact';
+import Checkout from '../pages/checkout';
 
 export default function App() {
     return (
@@ -13,10 +13,11 @@ export default function App() {
                 <Router>
                     <Navbar />
                     <Routes>
-                        <Route path='/home' element={<Home />} />
-                        <Route path='/contact' element={<Contact />} />
+                        <Route path='/' element={<Home />} />
                         <Route path='/cart' element={<Cart />} />
+                        <Route path='/checkout' element={<Checkout />} />
                     </Routes>
+                    <Contact />
                 </Router>
             </ShopcontextProvider>
         </div>
