@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/EcomReact/static/css/main.7691f9ab.css",
+    "main.js": "/EcomReact/static/js/main.d374444d.js",
+    "static/media/img13.jpg": "/EcomReact/static/media/img13.b7b3df6c3f4497c06daf.jpg",
+    "static/media/img11.jpg": "/EcomReact/static/media/img11.45a29be9eefff91dbf48.jpg",
+    "static/media/img14.jpg": "/EcomReact/static/media/img14.7326c0c6cc9393d30435.jpg",
+    "static/media/img15.jpg": "/EcomReact/static/media/img15.4965086e7d26daeb30b6.jpg",
+    "static/media/img12.jpg": "/EcomReact/static/media/img12.2282afecf51b878a0f92.jpg",
+    "static/media/img7.jpg": "/EcomReact/static/media/img7.832d6e897b2adca0be33.jpg",
+    "static/media/img10.jpg": "/EcomReact/static/media/img10.0e57cbfc26756d4aaf1a.jpg",
+    "static/media/img17.jpg": "/EcomReact/static/media/img17.254844dbe66da3f1c9ef.jpg",
+    "static/media/img16.jpg": "/EcomReact/static/media/img16.60d453c058b9c658e860.jpg",
+    "static/media/img18.jpg": "/EcomReact/static/media/img18.f976fe0dce9b8de1a8aa.jpg",
+    "static/media/img5.jpg": "/EcomReact/static/media/img5.086a83c87c61fa90b5b7.jpg",
+    "static/media/img3.jpg": "/EcomReact/static/media/img3.15f1a1449fabe740704f.jpg",
+    "static/media/img8.jpg": "/EcomReact/static/media/img8.781940e26aca897683f1.jpg",
+    "static/media/img9.jpg": "/EcomReact/static/media/img9.3246384dcc6bf164d6b7.jpg",
+    "static/media/img1.jpg": "/EcomReact/static/media/img1.9e38972f8b449e82077a.jpg",
+    "static/media/img6.jpg": "/EcomReact/static/media/img6.7193a7e699b593fd8572.jpg",
+    "static/media/img2.jpg": "/EcomReact/static/media/img2.516ba095d0eaeb0b421f.jpg",
+    "index.html": "/EcomReact/index.html",
+    "main.7691f9ab.css.map": "/EcomReact/static/css/main.7691f9ab.css.map",
+    "main.d374444d.js.map": "/EcomReact/static/js/main.d374444d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7691f9ab.css",
+    "static/js/main.d374444d.js"
+  ]
+}
